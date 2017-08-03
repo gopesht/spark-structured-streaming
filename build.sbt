@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-streaming-kafka-0-10_2.11" % "2.1.1",
   "org.apache.spark" % "spark-streaming_2.11" % "2.1.1",
   "org.apache.spark" % "spark-sql_2.11" % "2.1.1",
-  "org.apache.spark" % "spark-sql-kafka-0-10_2.10" % "2.1.1"
+  "org.apache.spark" % "spark-sql-kafka-0-10_2.11" % "2.1.1"
 )
 // META-INF discarding
 mergeStrategy in assembly <<= (mergeStrategy in assembly) { (old) =>
